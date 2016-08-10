@@ -1,0 +1,136 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!-- My customized CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!--  Header  -->
+        <header class="header">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="header_logo img-responsive" src="img/boy.svg" alt="logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1>Steven Guo</h1>
+                <h4>Web Developer</h4>
+            </div>
+        </div>
+        </header>
+        <hr>
+        <!-- Main content -->
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive" src="img/tea-small.jpg" sizes="100vw" srcset="img/tea-small.jpg 320w, img/tea-medium.jpg 640w, img/tea.jpg 1140w" alt="tea image">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-left text-uppercase text-muted">Featured Work</h2>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <img class="image img-responsive" src="img/flower-small.jpg" sizes="100vw" srcset="img/flower-small.jpg 320w, img/flower-medium.jpg 640w, img/flower.jpg 800w" alt="flower image" data-toggle="modal" data-target="#myModal1">
+                <h3 class="text-uppercase">Movie Trailer Website</h3>
+                <a href="https://goo.gl/2YVnp7"><h4>https://goo.gl/2YVnp7</h4></a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <img class="image img-responsive" src="img/mario-small.jpg" sizes="100vw" srcset="img/mario-small.jpg 320w, img/mario-medium.jpg 640w, img/mario.jpg 800w" alt="mario image" data-toggle="modal" data-target="#myModal2">
+                <h3 class="text-uppercase">Shops App</h3>
+                <a href="https://goo.gl/TzWBhL"><h4>https://goo.gl/TzWBhL</h4></a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <img class="image img-responsive" src="img/cat-small.jpg" sizes="100vw" srcset="img/cat-small.jpg 320w, img/cat-medium.jpg 640w, img/cat.jpg 800w" alt="cat image" data-toggle="modal" data-target="#myModal3">
+                <h3 class="text-uppercase">Portfolio</h3>
+                <a href="#"><h4>http://placeholder.com</h4></a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <hr>
+        <footer class="footer">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <h4>Steven Guo</h4>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+            <a class="zocial" href="https://www.facebook.com/minxin.guo.98"><span class="zocial-facebook"></span></a>
+            <a class="zocial" href="https://www.linkedin.com/in/minxinguo"><span class="zocial-linkedin"></span></a>
+          </div>
+        </div>
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel1">Movie Trailer Website</h4>
+          </div>
+          <div class="modal-body">
+            <p>A practice project from Udacity FullStack Nano Degree.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel2">Shops App(iOS)</h4>
+          </div>
+          <div class="modal-body">
+            <p>Find products carried at nearby stores for over 200,000 store locations. Locate and map products down to the aisle and section inside over 13,000 stores with searchable indoor maps.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel3">Portfolio Project</h4>
+          </div>
+          <div class="modal-body">
+            <p>Build a responsive website using Bootstrap framework. Use customized fonts from Google fonts.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

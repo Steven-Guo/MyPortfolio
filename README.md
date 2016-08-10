@@ -1,23 +1,33 @@
 <snippet>
-  <content><![CDATA[# MyPortfolio]>
-# ${1:Project Name}
-TODO: Write a project description
+  <content>
+# Portfolio Website
+
+A responsive website practice. Using Bootstrap as template, Grunt for responsive images, customized font from Google fonts.
+
 ## Installation
-TODO: Describe the installation process
+
+Download all files into same folder.
+
 ## Usage
-TODO: Write usage instructions
+
+Run index.html
+
 ## Contributing
+
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
+
 ## History
-TODO: Write history
+
 ## Credits
-TODO: Write credits
+
+Project creator from Udacity
+
 ## License
-TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
+
+MIT License
+</content>
 </snippet>
